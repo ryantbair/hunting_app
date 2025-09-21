@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "source": "Pennsylvania Game Commission - Final 2025-26 seasons and Seasons & Bag Limits",
+    "last_updated": "2025-09-20"
+  },
+  "seasons": [
+    {
+      "id": "deer_archery_statewide",
+      "species": "White-tailed Deer (Archery)",
+      "method": "Archery",
+      "applies_to": "statewide",
+      "date_ranges": [
+        {"start": "2025-09-20", "end": "2025-11-15"},
+        {"start": "2025-12-26", "end": "2026-01-10"}
+      ],
+      "notes": "Some WMU specific exceptions may apply; check WMU rules."
+    },
+    {
+      "id": "deer_regular_firearms_statewide",
+      "species": "White-tailed Deer (Regular Firearms)",
+      "method": "Firearms",
+      "applies_to": "statewide",
+      "date_ranges": [
+        {"start": "2025-11-29", "end": "2025-12-13"}
+      ],
+      "notes": "Includes Sunday Nov. 30 for 2025-26 seasons; see PGC for details."
+    },
+    {
+      "id": "turkey_spring_statewide",
+      "species": "Wild Turkey (Spring)",
+      "method": "Spring turkey (shotgun/rifle not allowed)",
+      "applies_to": "statewide",
+      "date_ranges": [
+        {"start": "2026-04-15", "end": "2026-05-31"}
+      ],
+      "notes": "Spring turkey season dates and special youth splits may apply."
+    },
+    {
+      "id": "ducks_north_zone",
+      "species": "Migratory Ducks",
+      "method": "Waterfowl",
+      "applies_to": "north_zone",
+      "date_ranges": [
+        {"start": "2025-10-11", "end": "2025-10-25"},
+        {"start": "2025-11-18", "end": "2026-01-10"}
+      ],
+      "notes": "Waterfowl zones: north, south, northwest, Lake Erie; dates differ by zone."
+    }
+  ]
+}

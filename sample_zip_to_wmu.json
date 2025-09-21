@@ -1,0 +1,6 @@
+{
+  "15201": {"city":"Pittsburgh","county":"Allegheny","wmu":"5C","waterfowl_zone":"south_zone"},
+  "16801": {"city":"State College","county":"Centre","wmu":"2A","waterfowl_zone":"north_zone"},
+  "19019": {"city":"Chester","county":"Chester","wmu":"5B","waterfowl_zone":"south_zone"},
+  "17901": {"city":"Pottsville","county":"Schuylkill","wmu":"5A","waterfowl_zone":"north_zone"}
+}
