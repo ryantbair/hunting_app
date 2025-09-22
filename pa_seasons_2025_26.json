@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "source": "Pennsylvania Game Commission – Final 2025–26 Seasons and Bag Limits",
+    "source": "Pennsylvania Game Commission – Final 2025–26 Seasons & Bag Limits",
     "last_updated": "2025-09-22"
   },
   "seasons": [
@@ -13,17 +13,47 @@
         {"start": "2025-09-20", "end": "2025-11-15"},
         {"start": "2025-12-26", "end": "2026-01-10"}
       ],
-      "notes": "One antlered deer per license year; one antlerless deer per antlerless license."
+      "notes": "Some WMU-specific exceptions may apply; check PGC rules. Bag limits per WMU apply."
     },
     {
-      "id": "squirrel_5B",
-      "species": "Gray/Red Squirrel",
+      "id": "deer_firearms_statewide",
+      "species": "White-tailed Deer (Firearms)",
+      "method": "Firearms",
+      "applies_to": "statewide",
+      "date_ranges": [
+        {"start": "2025-11-29", "end": "2025-12-13"}
+      ],
+      "notes": "Includes Sunday Nov. 30 for 2025–26 seasons; bag limits per WMU."
+    },
+    {
+      "id": "squirrel_statewide",
+      "species": "Gray/Red/Black/Fox Squirrel",
       "method": "Firearms/Archery",
-      "applies_to": ["5B"],
+      "applies_to": "statewide",
       "date_ranges": [
         {"start": "2025-09-06", "end": "2025-12-31"}
       ],
-      "notes": "Check PGC regulations for bag limits."
+      "notes": "Daily limit: 6; possession: 18. Junior hunt splits included."
+    },
+    {
+      "id": "turkey_spring_statewide",
+      "species": "Wild Turkey (Spring)",
+      "method": "Spring turkey (shotgun/rifle not allowed)",
+      "applies_to": "statewide",
+      "date_ranges": [
+        {"start": "2026-04-15", "end": "2026-05-31"}
+      ],
+      "notes": "Spring turkey season dates and special youth splits may apply."
+    },
+    {
+      "id": "turkey_fall_5b",
+      "species": "Wild Turkey (Fall)",
+      "method": "Shotgun/Archery",
+      "applies_to": ["5B"],
+      "date_ranges": [
+        {"start": "2025-11-01", "end": "2025-11-15"}
+      ],
+      "notes": "Bag limit: 1 per day, 2 possession. Youth hunt splits may apply."
     },
     {
       "id": "ducks_north_zone",
@@ -34,17 +64,208 @@
         {"start": "2025-10-11", "end": "2025-10-25"},
         {"start": "2025-11-18", "end": "2026-01-10"}
       ],
-      "notes": "Bag limits vary by species; consult PGC regulations."
+      "notes": "Bag limits vary by species; consult PGC. Includes sea ducks, coots, and mergansers."
     },
     {
-      "id": "turkey_fall_5B",
-      "species": "Wild Turkey (Fall)",
-      "method": "Firearms",
-      "applies_to": ["5B"],
+      "id": "ducks_south_zone",
+      "species": "Migratory Ducks",
+      "method": "Waterfowl",
+      "applies_to": "south_zone",
       "date_ranges": [
-        {"start": "2025-11-01", "end": "2025-11-15"}
+        {"start": "2025-10-11", "end": "2025-10-25"},
+        {"start": "2025-11-18", "end": "2026-01-10"}
       ],
-      "notes": "One bird per license year; consult PGC regulations for details."
+      "notes": "Bag limits vary by species; consult PGC. Includes sea ducks, coots, and mergansers."
+    },
+    {
+      "id": "ducks_northwest_zone",
+      "species": "Migratory Ducks",
+      "method": "Waterfowl",
+      "applies_to": "northwest_zone",
+      "date_ranges": [
+        {"start": "2025-10-11", "end": "2025-11-28"},
+        {"start": "2025-12-22", "end": "2026-01-10"}
+      ],
+      "notes": "Bag limits vary by species; consult PGC. Includes sea ducks, coots, and mergansers."
+    },
+    {
+      "id": "ducks_lake_erie_zone",
+      "species": "Migratory Ducks",
+      "method": "Waterfowl",
+      "applies_to": "lake_erie_zone",
+      "date_ranges": [
+        {"start": "2025-11-03", "end": "2026-01-10"}
+      ],
+      "notes": "Bag limits vary by species; consult PGC. Includes sea ducks, coots, and mergansers."
+    },
+    {
+      "id": "geese_north_goose_zone",
+      "species": "Canada/White-fronted Geese",
+      "method": "Waterfowl",
+      "applies_to": "north_goose_zone",
+      "date_ranges": [
+        {"start": "2025-09-01", "end": "2025-09-25"},
+        {"start": "2025-10-25", "end": "2025-11-28"},
+        {"start": "2025-12-15", "end": "2026-01-17"},
+        {"start": "2026-01-30", "end": "2026-02-21"}
+      ],
+      "notes": "Bag limits: 5 per day. Consult PGC for regulations."
+    },
+    {
+      "id": "geese_south_goose_zone",
+      "species": "Canada/White-fronted Geese",
+      "method": "Waterfowl",
+      "applies_to": "south_goose_zone",
+      "date_ranges": [
+        {"start": "2025-09-01", "end": "2025-09-25"},
+        {"start": "2025-10-25", "end": "2025-11-28"},
+        {"start": "2025-12-15", "end": "2026-01-17"},
+        {"start": "2026-01-30", "end": "2026-02-21"}
+      ],
+      "notes": "Bag limits: 5 per day. Consult PGC for regulations."
+    },
+    {
+      "id": "light_geese_resident",
+      "species": "Light Geese (Snow and Ross’)",
+      "method": "Waterfowl",
+      "applies_to": "statewide",
+      "date_ranges": [
+        {"start": "2025-10-21", "end": "2026-02-21"},
+        {"start": "2026-02-23", "end": "2026-04-24"}
+      ],
+      "notes": "No daily bag limit; consult PGC for Atlantic population splits."
+    },
+    {
+      "id": "brant",
+      "species": "Brant",
+      "method": "Waterfowl",
+      "applies_to": "statewide",
+      "date_ranges": [
+        {"start": "2025-10-11", "end": "2025-11-14"}
+      ],
+      "notes": "Bag limit: 1 per day, 3 possession. Consult PGC for regulations."
+    },
+    {
+      "id": "doves_statewide",
+      "species": "Mourning Doves",
+      "method": "Small Game",
+      "applies_to": "statewide",
+      "date_ranges": [
+        {"start": "2025-09-01", "end": "2025-11-28"},
+        {"start": "2025-12-20", "end": "2026-01-03"}
+      ],
+      "notes": "Bag limit: 15 daily, 45 possession. Consult PGC for regulations."
+    },
+    {
+      "id": "rabbits_statewide",
+      "species": "Cottontail Rabbit",
+      "method": "Small Game",
+      "applies_to": "statewide",
+      "date_ranges": [
+        {"start": "2025-09-06", "end": "2025-12-31"}
+      ],
+      "notes": "Daily bag limit: 3; possession: 9."
+    },
+    {
+      "id": "pheasant_statewide",
+      "species": "Ring-necked Pheasant",
+      "method": "Small Game",
+      "applies_to": "statewide",
+      "date_ranges": [
+        {"start": "2025-10-11", "end": "2025-12-31"}
+      ],
+      "notes": "Daily bag limit: 3; possession: 6."
+    },
+    {
+      "id": "quail_statewide",
+      "species": "Northern Bobwhite Quail",
+      "method": "Small Game",
+      "applies_to": "statewide",
+      "date_ranges": [
+        {"start": "2025-10-11", "end": "2025-12-31"}
+      ],
+      "notes": "Daily bag limit: 8; possession: 16."
+    },
+    {
+      "id": "raccoon_furbearer_statewide",
+      "species": "Raccoon",
+      "method": "Furbearer",
+      "applies_to": "statewide",
+      "date_ranges": [
+        {"start": "2025-09-01", "end": "2026-03-31"}
+      ],
+      "notes": "Trapping and hunting regulations vary; check PGC for specifics."
+    },
+    {
+      "id": "opossum_furbearer_statewide",
+      "species": "Opossum",
+      "method": "Furbearer",
+      "applies_to": "statewide",
+      "date_ranges": [
+        {"start": "2025-09-01", "end": "2026-03-31"}
+      ],
+      "notes": "Trapping and hunting regulations vary; check PGC for specifics."
+    },
+    {
+      "id": "coyote_furbearer_statewide",
+      "species": "Coyote",
+      "method": "Furbearer",
+      "applies_to": "statewide",
+      "date_ranges": [
+        {"start": "2025-09-01", "end": "2026-03-31"}
+      ],
+      "notes": "Hunt/trap year-round; bag limits per PGC rules."
+    },
+    {
+      "id": "bobcat_furbearer_statewide",
+      "species": "Bobcat",
+      "method": "Furbearer",
+      "applies_to": "statewide",
+      "date_ranges": [
+        {"start": "2025-09-01", "end": "2025-12-31"}
+      ],
+      "notes": "Trapping and hunting allowed by permit; bag limits apply."
+    },
+    {
+      "id": "bear_firearms_statewide",
+      "species": "Black Bear (Firearms)",
+      "method": "Firearms",
+      "applies_to": "statewide",
+      "date_ranges": [
+        {"start": "2025-11-01", "end": "2025-11-14"}
+      ],
+      "notes": "Bag limit: 1 per season. WMU-specific rules apply."
+    },
+    {
+      "id": "bear_archery_statewide",
+      "species": "Black Bear (Archery)",
+      "method": "Archery",
+      "applies_to": "statewide",
+      "date_ranges": [
+        {"start": "2025-09-20", "end": "2025-11-15"}
+      ],
+      "notes": "Bag limit: 1 per season. WMU-specific rules apply."
+    },
+    {
+      "id": "woodcock_statewide",
+      "species": "American Woodcock",
+      "method": "Small Game",
+      "applies_to": "statewide",
+      "date_ranges": [
+        {"start": "2025-09-20", "end": "2025-11-14"}
+      ],
+      "notes": "Daily bag limit: 3; possession: 6."
+    },
+    {
+      "id": "mourning_dove_statewide",
+      "species": "Mourning Dove",
+      "method": "Small Game",
+      "applies_to": "statewide",
+      "date_ranges": [
+        {"start": "2025-09-01", "end": "2025-11-28"},
+        {"start": "2025-12-20", "end": "2026-01-03"}
+      ],
+      "notes": "Daily bag limit: 15; possession: 45."
     }
   ]
 }
