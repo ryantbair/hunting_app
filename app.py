@@ -9,7 +9,7 @@ app = Flask(__name__)
 DATA_DIR = os.path.join(os.path.dirname(__file__), '.')
 
 # Load seasons and ZIP->WMU mapping on startup
-with open(os.path.join(DATA_DIR, 'pa_seasons_2025_26_expanded.json')) as f:
+with open(os.path.join(DATA_DIR, 'pa_seasons_2025_26.json')) as f:
     SEASONS_DB = json.load(f)['seasons']
 
 with open(os.path.join(DATA_DIR, 'sample_zip_to_wmu.json')) as f:
