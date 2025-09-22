@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "source": "Pennsylvania Game Commission - Final 2025-26 seasons and Seasons & Bag Limits",
-    "last_updated": "2025-09-20"
+    "source": "Pennsylvania Game Commission – Final 2025–26 Seasons and Bag Limits",
+    "last_updated": "2025-09-22"
   },
   "seasons": [
     {
@@ -13,98 +13,17 @@
         {"start": "2025-09-20", "end": "2025-11-15"},
         {"start": "2025-12-26", "end": "2026-01-10"}
       ],
-      "notes": "Includes Sunday hunting on Nov. 16; check WMU-specific regulations for exceptions."
+      "notes": "One antlered deer per license year; one antlerless deer per antlerless license."
     },
     {
-      "id": "deer_regular_firearms_statewide",
-      "species": "White-tailed Deer (Regular Firearms)",
-      "method": "Firearms",
-      "applies_to": "statewide",
+      "id": "squirrel_5B",
+      "species": "Gray/Red Squirrel",
+      "method": "Firearms/Archery",
+      "applies_to": ["5B"],
       "date_ranges": [
-        {"start": "2025-11-29", "end": "2025-12-13"}
+        {"start": "2025-09-06", "end": "2025-12-31"}
       ],
-      "notes": "Includes Sunday hunting on Nov. 30; see PGC for details."
-    },
-    {
-      "id": "deer_regular_firearms_wmu_2b_5c_5d",
-      "species": "White-tailed Deer (Regular Firearms)",
-      "method": "Firearms",
-      "applies_to": ["2B", "5C", "5D"],
-      "date_ranges": [
-        {"start": "2025-11-29", "end": "2025-12-13"}
-      ],
-      "notes": "Includes Sunday hunting on Nov. 30; see PGC for details."
-    },
-    {
-      "id": "deer_mentored_archery_statewide",
-      "species": "White-tailed Deer (Mentored Archery)",
-      "method": "Archery",
-      "applies_to": "statewide",
-      "date_ranges": [
-        {"start": "2025-09-20", "end": "2025-11-15"},
-        {"start": "2025-12-26", "end": "2026-01-10"}
-      ],
-      "notes": "Includes Sunday hunting on Nov. 16; check WMU-specific regulations for exceptions."
-    },
-    {
-      "id": "deer_mentored_regular_firearms_statewide",
-      "species": "White-tailed Deer (Mentored Regular Firearms)",
-      "method": "Firearms",
-      "applies_to": "statewide",
-      "date_ranges": [
-        {"start": "2025-11-29", "end": "2025-12-13"}
-      ],
-      "notes": "Includes Sunday hunting on Nov. 30; see PGC for details."
-    },
-    {
-      "id": "deer_mentored_regular_firearms_wmu_2b_5c_5d",
-      "species": "White-tailed Deer (Mentored Regular Firearms)",
-      "method": "Firearms",
-      "applies_to": ["2B", "5C", "5D"],
-      "date_ranges": [
-        {"start": "2025-11-29", "end": "2025-12-13"}
-      ],
-      "notes": "Includes Sunday hunting on Nov. 30; see PGC for details."
-    },
-    {
-      "id": "black_bear_statewide",
-      "species": "Black Bear",
-      "method": "Firearms",
-      "applies_to": "statewide",
-      "date_ranges": [
-        {"start": "2025-11-22", "end": "2025-11-25"}
-      ],
-      "notes": "Includes Sunday hunting on Nov. 23; see PGC for details."
-    },
-    {
-      "id": "black_bear_extended_firearms_wmu_3a_3b_3c_3d_4c_4e_5a",
-      "species": "Black Bear (Extended Firearms)",
-      "method": "Firearms",
-      "applies_to": ["3A", "3B", "3C", "3D", "4C", "4E", "5A"],
-      "date_ranges": [
-        {"start": "2025-11-29", "end": "2025-12-06"}
-      ],
-      "notes": "Includes Sunday hunting on Nov. 30; see PGC for details."
-    },
-    {
-      "id": "black_bear_extended_firearms_wmu_2b_5b_5c_5d",
-      "species": "Black Bear (Extended Firearms)",
-      "method": "Firearms",
-      "applies_to": ["2B", "5B", "5C", "5D"],
-      "date_ranges": [
-        {"start": "2025-11-29", "end": "2025-12-13"}
-      ],
-      "notes": "Includes Sunday hunting on Nov. 30; see PGC for details."
-    },
-    {
-      "id": "turkey_spring_statewide",
-      "species": "Wild Turkey (Spring)",
-      "method": "Shotgun/Rifle (not allowed)",
-      "applies_to": "statewide",
-      "date_ranges": [
-        {"start": "2026-04-15", "end": "2026-05-31"}
-      ],
-      "notes": "Spring turkey season dates and special youth splits may apply."
+      "notes": "Check PGC regulations for bag limits."
     },
     {
       "id": "ducks_north_zone",
@@ -115,62 +34,17 @@
         {"start": "2025-10-11", "end": "2025-10-25"},
         {"start": "2025-11-18", "end": "2026-01-10"}
       ],
-      "notes": "Waterfowl zones: north, south, northwest, Lake Erie; dates differ by zone."
+      "notes": "Bag limits vary by species; consult PGC regulations."
     },
     {
-      "id": "ducks_south_zone",
-      "species": "Migratory Ducks",
-      "method": "Waterfowl",
-      "applies_to": "south_zone",
+      "id": "turkey_fall_5B",
+      "species": "Wild Turkey (Fall)",
+      "method": "Firearms",
+      "applies_to": ["5B"],
       "date_ranges": [
-        {"start": "2025-10-11", "end": "2025-10-18"},
-        {"start": "2025-11-19", "end": "2026-01-19"}
+        {"start": "2025-11-01", "end": "2025-11-15"}
       ],
-      "notes": "Waterfowl zones: north, south, northwest, Lake Erie; dates differ by zone."
-    },
-    {
-      "id": "ducks_northwest_zone",
-      "species": "Migratory Ducks",
-      "method": "Waterfowl",
-      "applies_to": "northwest_zone",
-      "date_ranges": [
-        {"start": "2025-10-11", "end": "2025-11-28"},
-        {"start": "2025-12-22", "end": "2026-01-10"}
-      ],
-      "notes": "Waterfowl zones: north, south, northwest, Lake Erie; dates differ by zone."
-    },
-    {
-      "id": "ducks_lake_erie_zone",
-      "species": "Migratory Ducks",
-      "method": "Waterfowl",
-      "applies_to": "lake_erie_zone",
-      "date_ranges": [
-        {"start": "2025-11-03", "end": "2025-11-14"},
-        {"start": "2025-12-19", "end": "2026-01-10"}
-      ],
-      "notes": "Waterfowl zones: north, south, northwest, Lake Erie; dates differ by zone."
-    },
-    {
-      "id": "woodcock_statewide",
-      "species": "Woodcock",
-      "method": "Shotgun",
-      "applies_to": "statewide",
-      "date_ranges": [
-        {"start": "2025-10-18", "end": "2025-11-28"},
-        {"start": "2025-12-15", "end": "2025-12-24"}
-      ],
-      "notes": "Statewide season dates; check WMU-specific regulations for exceptions."
-    },
-    {
-      "id": "snipe_statewide",
-      "species": "Wilson’s Snipe",
-      "method": "Shotgun",
-      "applies_to": "statewide",
-      "date_ranges": [
-        {"start": "2025-10-18", "end": "2025-11-28"},
-        {"start": "2025-12-15", "end": "2025-12-24"}
-      ],
-      "notes": "Statewide season dates; check WMU-specific regulations for exceptions."
+      "notes": "One bird per license year; consult PGC regulations for details."
     }
   ]
 }
